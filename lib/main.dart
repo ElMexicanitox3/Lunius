@@ -1,6 +1,18 @@
+import 'package:firebase_auth/firebase_auth.dart';
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
+import 'package:lunius/firebase_options.dart';
 
-void main() {
+late final FirebaseApp app;
+late final FirebaseAuth auth;
+
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+  );
+    auth = FirebaseAuth.instanceFor(app: app);
+
   runApp(const MyApp());
 }
 

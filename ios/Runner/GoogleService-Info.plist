@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>745492147306-u4dnvl4l6651p4ji1l30hvdmerijst12.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.745492147306-u4dnvl4l6651p4ji1l30hvdmerijst12</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCFmazAyXp1HnjpIIXBvEu1sgWhRdzJl3Q</string>
+	<key>GCM_SENDER_ID</key>
+	<string>745492147306</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.gerardomp.lunius</string>
+	<key>PROJECT_ID</key>
+	<string>iunius-8167d</string>
+	<key>STORAGE_BUCKET</key>
+	<string>iunius-8167d.firebasestorage.app</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:745492147306:ios:121c094d098c1a3a68ee13</string>
+</dict>
+</plist>

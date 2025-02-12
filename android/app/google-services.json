@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "745492147306",
+    "project_id": "iunius-8167d",
+    "storage_bucket": "iunius-8167d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:745492147306:android:72a966c14e308d6568ee13",
+        "android_client_info": {
+          "package_name": "com.gerardomp.lunius"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "745492147306-5e6famdmeqn68grqknhpvh93sc09j29h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChDeZPzh0J2HfEvLk7hIkSTFrRTVP2Cus"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "745492147306-5e6famdmeqn68grqknhpvh93sc09j29h.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "745492147306-u4dnvl4l6651p4ji1l30hvdmerijst12.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.gerardomp.lunius"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
