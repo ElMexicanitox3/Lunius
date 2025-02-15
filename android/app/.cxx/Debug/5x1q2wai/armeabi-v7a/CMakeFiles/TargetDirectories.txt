@@ -1,0 +1,2 @@
+/Users/gerardomatadamaperalta/Desktop/proyectos/Lunius/android/app/.cxx/Debug/5x1q2wai/armeabi-v7a/CMakeFiles/edit_cache.dir
+/Users/gerardomatadamaperalta/Desktop/proyectos/Lunius/android/app/.cxx/Debug/5x1q2wai/armeabi-v7a/CMakeFiles/rebuild_cache.dir
