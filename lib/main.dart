@@ -2,6 +2,7 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:lunius/firebase_options.dart';
 import 'package:lunius/routes/app_routes.dart';
+import 'package:lunius/services/snackbar_service.dart';
 
 
 void main() async {
@@ -25,6 +26,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
+      scaffoldMessengerKey: SnackBarService.scaffoldKey,
       routes: AppRoutes.getRoutes(),
       initialRoute: AppRoutes.login,
     );
