@@ -1,0 +1,20 @@
+{
+  "buildFiles": [
+    "/Users/gerardomp/development/flutter/packages/flutter_tools/gradle/src/main/groovy/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Users/gerardomp/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+      "-C",
+      "/Users/gerardomp/Desktop/Proyectos/lunius/android/app/.cxx/Debug/166h531b/x86_64",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/Users/gerardomp/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+    "-C",
+    "/Users/gerardomp/Desktop/Proyectos/lunius/android/app/.cxx/Debug/166h531b/x86_64",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {}
+}

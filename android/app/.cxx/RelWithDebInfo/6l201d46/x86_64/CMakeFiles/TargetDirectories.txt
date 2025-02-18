@@ -1,0 +1,2 @@
+/Users/gerardomp/Desktop/Proyectos/lunius/android/app/.cxx/RelWithDebInfo/6l201d46/x86_64/CMakeFiles/edit_cache.dir
+/Users/gerardomp/Desktop/Proyectos/lunius/android/app/.cxx/RelWithDebInfo/6l201d46/x86_64/CMakeFiles/rebuild_cache.dir
