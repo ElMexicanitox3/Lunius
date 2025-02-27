@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:lunius/blocs/auth/login/login.dart';
 import 'package:lunius/repositories/auth/auth_repository.dart';
+import 'package:lunius/screens/auth/layout/auth_layout.dart';
 
 class LoginScreen extends StatelessWidget {
   
@@ -9,9 +10,9 @@ class LoginScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(title: Text('Login con Google')),
-      body: BlocProvider(
+    return AuthLayout(
+
+      child: BlocProvider(
         create: (context) => LoginBloc(
           authRepository: AuthRepository(),
         ),
@@ -31,19 +32,27 @@ class LoginScreen extends StatelessWidget {
               if (state is LoginLoading) {
                 return Center(child: CircularProgressIndicator());
               }
-              return Center(
-                child: ElevatedButton.icon(
-                  icon: Icon(Icons.login),
-                  label: Text('Iniciar sesión con Google'),
-                  onPressed: () {
-                    context.read<LoginBloc>().add(LoginWithGoogle());
-                  },
-                ),
+              // return Center(
+              //   child: ElevatedButton.icon(
+              //     icon: Icon(Icons.login),
+              //     label: Text('Iniciar sesión con Google'),
+              //     onPressed: () {
+              //       context.read<LoginBloc>().add(LoginWithGoogle());
+              //     },
+              //   ),
+              // );
+
+              return Column(
+                
+                children: [
+                  
+                ],
               );
             },
           ),
         ),
       ),
+
     );
   }
 }
