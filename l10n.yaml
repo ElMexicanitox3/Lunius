@@ -1,0 +1,7 @@
+arb-dir: lib/l10n  # Carpeta donde están tus archivos ARB
+template-arb-file: app_en.arb  # Archivo base (debe existir en la carpeta 'arb-dir')
+output-dir: lib/l10n/generated  # Carpeta donde se generarán los archivos de localización
+synthetic-package: false  # Esto evita que los archivos vayan a .dart-tool
+preferred-supported-locales:
+  - en
+  - es

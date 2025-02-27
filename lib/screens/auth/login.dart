@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:lunius/blocs/auth/login/login.dart';
+import 'package:lunius/l10n/generated/app_localizations.dart';
 import 'package:lunius/repositories/auth/auth_repository.dart';
 import 'package:lunius/screens/auth/layout/auth_layout.dart';
 
@@ -42,11 +43,21 @@ class LoginScreen extends StatelessWidget {
               //   ),
               // );
 
-              return Column(
+              return Padding(
+                padding: const EdgeInsets.all(32),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.center,
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    
+                    TextFormField(
+                      decoration: InputDecoration(
+                        labelText: AppLocalizations.of(context)!.email,
+                      ),
+                    ),
                 
-                children: [
-                  
-                ],
+                  ],
+                ),
               );
             },
           ),

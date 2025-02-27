@@ -1,0 +1,11 @@
+{
+  "helloWorld": "¡Hola, Mundo!",
+  "@helloWorld": {
+    "description": "Un saludo simple"
+  },
+
+  "email" : "Correo Electronico",
+  "@email":{
+    "description": "Para usar el placeholde de un input"
+  }
+}

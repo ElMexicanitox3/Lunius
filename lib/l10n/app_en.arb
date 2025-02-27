@@ -1,0 +1,11 @@
+{
+  "helloWorld": "Hello, World!",
+  "@helloWorld": {
+    "description": "A simple greeting"
+  },
+
+  "email" : "Email",
+  "@email":{
+    "description": "Use to label in an input"
+  }
+}
